@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using walter_practises.Exceptions;
-using walter_practises.FizzBuzz;
 
 namespace walter_practises
 {
@@ -24,20 +22,22 @@ namespace walter_practises
             //runProject(Exercise.Exceptions);
             //runExercise(Exercise.FizzBuzz);
             //runExercise(Exercise.MaximumNumber);
-            runExercise(Exercise.SortTwoNumbers);
+            //runExercise(Exercise.SortTwoNumbers);
+            runExercise(Exercise.Encapsulation);
         }
 
         static void runExercise(Exercise exercise)
         {
             // school excercises
-            if (exercise == Exercise.EmployeeManager) { new EmployeeManager.EmployeeManager().Start(); }
-            if (exercise == Exercise.LoopsAndStrings) { new LoopsAndStrings.LoopsAndStringsManager().Start(); }
-            if (exercise == Exercise.Exceptions) { new ExceptionManager().Start(); }
+            if (exercise == Exercise.EmployeeManager) { new school.p1.EmployeeManager.EmployeeManager().Start(); }
+            if (exercise == Exercise.LoopsAndStrings) { new school.p2.LoopsAndStrings.LoopsAndStringsManager().Start(); }
+            if (exercise == Exercise.Exceptions) { new school.p3.Exceptions.ExceptionManager().Start(); }
+            if (exercise == Exercise.Encapsulation) { new school.p4.Encapsulation.EncapsulationManager().Start(); }
 
             // kattis.com excercises
-            if (exercise == Exercise.FizzBuzz) { new FizzBuzzManager().Start(); }
-            if (exercise == Exercise.MaximumNumber) { new MaximumNumber.MaximumNumberManager().Start(); }
-            if (exercise == Exercise.SortTwoNumbers) { new SortTwoNumbers.SortTwoNumbersManager().Start(); }    
+            if (exercise == Exercise.FizzBuzz) { new kattis.k1000.FizzBuzzManager().Start(); }
+            if (exercise == Exercise.MaximumNumber) { new kattis.k1001.MaximumNumberManager().Start(); }
+            if (exercise == Exercise.SortTwoNumbers) { new kattis.k1002.SortTwoNumbersManager().Start(); }    
         }
 
         // Add more projects here as needed
@@ -46,10 +46,11 @@ namespace walter_practises
             EmployeeManager = 1,
             LoopsAndStrings = 2,
             Exceptions = 3,
+            Encapsulation = 4,
+            Garage = 5,
             FizzBuzz = 1000,
             MaximumNumber = 1001,
-            SortTwoNumbers = 1002
-            
+            SortTwoNumbers = 1002           
         }
     }
 }

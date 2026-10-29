@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace walter_practises.LoopsAndStrings
+namespace walter_practises.school.p2.LoopsAndStrings
 {
     internal class LoopsAndStringsManager : Interface.IManager
     {

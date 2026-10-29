@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace walter_practises.FizzBuzz
+namespace walter_practises.kattis.k1000
 {
     internal class FizzBuzzManager : walter_practises.Interface.IManager
     {

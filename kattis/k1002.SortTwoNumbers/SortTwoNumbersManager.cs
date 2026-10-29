@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace walter_practises.SortTwoNumbers
+namespace walter_practises.kattis.k1002
 {
     internal class SortTwoNumbersManager : walter_practises.Interface.IManager
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace walter_practises.MaximumNumber
+namespace walter_practises.kattis.k1001
 {
     internal class MaximumNumberManager : walter_practises.Interface.IManager
     {

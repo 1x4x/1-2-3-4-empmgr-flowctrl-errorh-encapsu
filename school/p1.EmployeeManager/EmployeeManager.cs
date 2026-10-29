@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static walter_practises.EmployeeManager.EmployeeModel;
+using walter_practises.school.EmployeeManager;
 
-namespace walter_practises.EmployeeManager
+namespace walter_practises.school.p1.EmployeeManager
 {
     internal class EmployeeManager : walter_practises.Interface.IManager
     {
@@ -89,7 +89,7 @@ namespace walter_practises.EmployeeManager
                     break;
                 }
 
-                walter_practises.EmployeeManager.EmployeeModel employee = new walter_practises.EmployeeManager.EmployeeModel
+                walter_practises.school.EmployeeManager.EmployeeModel employee = new walter_practises.school.EmployeeManager.EmployeeModel
                 {
                     Name = name,
                     Salary = salary

@@ -43,16 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmployeeManager\EmployeeManager.cs" />
-    <Compile Include="EmployeeManager\EmployeeModel.cs" />
-    <Compile Include="Exceptions\ExceptionManager.cs" />
-    <Compile Include="FizzBuzz\FizzBuzzManager.cs" />
+    <Compile Include="school\p1.EmployeeManager\EmployeeManager.cs" />
+    <Compile Include="school\p1.EmployeeManager\EmployeeModel.cs" />
+    <Compile Include="school\p4.Encapsulation\EncapsulationManager.cs" />
+    <Compile Include="school\p4.Encapsulation\PersonModel.cs" />
+    <Compile Include="school\p3.Exceptions\ExceptionManager.cs" />
+    <Compile Include="kattis\k1000.FizzBuzz\FizzBuzzManager.cs" />
     <Compile Include="Interface\IManager.cs" />
-    <Compile Include="LoopsAndStrings\LoopsAndStringsManager.cs" />
-    <Compile Include="MaximumNumber\MaximumNumberManager.cs" />
+    <Compile Include="school\p2.LoopsAndStrings\LoopsAndStringsManager.cs" />
+    <Compile Include="kattis\k1001.MaximumNumber\MaximumNumberManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortTwoNumbers\SortTwoNumbersManager.cs" />
+    <Compile Include="kattis\k1002.SortTwoNumbers\SortTwoNumbersManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -62,5 +64,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
